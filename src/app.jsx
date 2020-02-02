@@ -4,6 +4,12 @@ class App extends Component {
 
   render() {
     return (
+      <React.Fragment>
+        <input type="checkbox" id="check" />
+        <label for="check">
+            <i className="fas fa-bars" id="btn"></i>
+            <i className="fas fa-times" id="cancel"></i>
+        </label>
       <div className='sidebar'>
         <header>My App</header>
         <ul>
@@ -16,6 +22,7 @@ class App extends Component {
           <li><a href="#"><i className="fas fa-envelope"></i>Contact</a></li>
         </ul>
       </div>
+      </React.Fragment>
     );
   }
 
