@@ -22,6 +22,9 @@ class App extends Component {
           <li><a href="#"><i className="fas fa-envelope"></i>Contact</a></li>
         </ul>
       </div>
+      <section>
+        
+      </section>
       </React.Fragment>
     );
   }

@@ -76,6 +76,15 @@ label #cancel{
 }
 #check:checked ~ label #cancel{
     left: 195px;
-    /* opacity: 0;
-    pointer-events: none; */
+}
+#check:checked ~ section{
+    margin-left: 250px;
+}
+section{
+    background: url(https://lh3.googleusercontent.com/proxy/MopmDB4mvnocDwuD87oDFnzZw962589gGFwUxiWP5dBm_I4xplny7c3Tu2tewh4R_dy8HKJ8FKNqjPZ-KpLDAGepH_2z4Kodl3CsdqNxci9yeIavJO3yFOkWLS6Iyr32o8TVmVINuE9dU44) no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+
 }
